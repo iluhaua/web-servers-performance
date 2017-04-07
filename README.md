@@ -5,7 +5,7 @@ These test results are just indicative.
 
 Nodejs, DartVM and .Net Core are easiest to setup and start with from scratch, Vert.x is hardest but have significant advantage in performance.
 
-= Nodejs =
+= **Nodejs** =
 wrk -t12 -c400 -d30s http://127.0.0.1:1337/
 Running 30s test @ http://127.0.0.1:1337/
   12 threads and 400 connections
@@ -16,7 +16,7 @@ Running 30s test @ http://127.0.0.1:1337/
 Requests/sec:   6435.40
 Transfer/sec:      1.20MB
 
-= Dart VM =
+= **Dart VM** =
 wrk -t12 -c400 -d30s http://127.0.0.1:4040/
 Running 30s test @ http://127.0.0.1:4040/
   12 threads and 400 connections
@@ -27,7 +27,7 @@ Running 30s test @ http://127.0.0.1:4040/
 Requests/sec:   7830.96
 Transfer/sec:      1.54MB
 
-= .Net Core =
+= **.Net Core** =
 wrk -t12 -c400 -d30s http://127.0.0.1:5000/
 Running 30s test @ http://127.0.0.1:5000/
   12 threads and 400 connections
@@ -38,7 +38,7 @@ Running 30s test @ http://127.0.0.1:5000/
 Requests/sec:  11913.82
 Transfer/sec:      3.18MB
 
-= Vert.x JVM =
+= **Vert.x JVM** =
 wrk -t12 -c400 -d30s http://127.0.0.1:8080/
 Running 30s test @ http://127.0.0.1:8080/
   12 threads and 400 connections
@@ -49,7 +49,7 @@ Running 30s test @ http://127.0.0.1:8080/
 Requests/sec:  19955.19
 Transfer/sec:      2.15MB
 
-= Go =
+= **Go** =
 wrk -t12 -c400 -d30s http://127.0.0.1:8080/
 Running 30s test @ http://127.0.0.1:8080/
   12 threads and 400 connections
@@ -60,3 +60,4 @@ Running 30s test @ http://127.0.0.1:8080/
   Socket errors: connect 0, read 0, write 0, timeout 316
 Requests/sec:  22003.89
 Transfer/sec:      2.83MB
+
