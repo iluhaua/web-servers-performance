@@ -6,15 +6,15 @@ These test results are just indicative.
 Nodejs, DartVM and .Net Core are easiest to setup and start with from scratch, Vert.x is hardest but have significant advantage in performance.
 
 = **Nodejs** =
-wrk -t12 -c400 -d30s http://127.0.0.1:1337/
-Running 30s test @ http://127.0.0.1:1337/
-  12 threads and 400 connections
-  Thread Stats   Avg      Stdev     Max   +/- Stdev
-    Latency    60.92ms    5.52ms 342.94ms   84.09%
-    Req/Sec   541.31    140.82     1.20k    74.26%
-  193666 requests in 30.09s, 36.02MB read
-Requests/sec:   6435.40
-Transfer/sec:      1.20MB
+wrk -t12 -c400 -d30s http://127.0.0.1:1337/  
+Running 30s test @ http://127.0.0.1:1337/  
+  12 threads and 400 connections  
+  Thread Stats   Avg      Stdev     Max   +/- Stdev  
+    Latency    60.92ms    5.52ms 342.94ms   84.09%  
+    Req/Sec   541.31    140.82     1.20k    74.26%  
+  193666 requests in 30.09s, 36.02MB read  
+Requests/sec:   6435.40  
+Transfer/sec:      1.20MB  
 
 = **Dart VM** =
 wrk -t12 -c400 -d30s http://127.0.0.1:4040/
