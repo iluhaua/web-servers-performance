@@ -3,7 +3,7 @@ Web servers simple performance tests
 
 These test results are just indicative.
 
-Nodejs, DartVM and .Net Core are easiest to setup and start with from scratch, Vert.x is hardest but have significant advantage in performance.
+Nodejs, DartVM .Net Core and Crystal are easiest to setup and start with from scratch, Vert.x is hardest but have significant advantage in performance.
 
 = **Nodejs** =  
 wrk -t12 -c400 -d30s http://127.0.0.1:1337/  
