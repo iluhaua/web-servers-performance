@@ -61,3 +61,17 @@ Running 30s test @ http://127.0.0.1:8080/
 Requests/sec:  22003.89  
 Transfer/sec:      2.83MB  
 
+== Crystal == (https://crystal-lang.org/)  
+build with --release  
+
+wrk -t12 -c400 -d30s http://127.0.0.1:8080/  
+Running 30s test @ http://127.0.0.1:8080/  
+  12 threads and 400 connections  
+  Thread Stats   Avg      Stdev     Max   +/- Stdev  
+    Latency   143.84ms  205.94ms   1.31s    84.39%  
+    Req/Sec     1.61k     2.51k   13.84k    86.58%  
+  390783 requests in 30.07s, 51.80MB read  
+Requests/sec:  12996.14  
+Transfer/sec:      1.72MB  
+
+
