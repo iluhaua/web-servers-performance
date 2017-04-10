@@ -61,7 +61,7 @@ Running 30s test @ http://127.0.0.1:8080/
 Requests/sec:  22003.89  
 Transfer/sec:      2.83MB  
 
-== Crystal == (https://crystal-lang.org/)  
+== **Crystal** == (https://crystal-lang.org/)  
 build with --release  
 
 wrk -t12 -c400 -d30s http://127.0.0.1:8080/  
